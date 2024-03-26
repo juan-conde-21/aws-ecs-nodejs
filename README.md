@@ -11,15 +11,24 @@
         
         # Otras cosas en su imagen Docker
 
-2. Establecer las siguientes variables de entorno en la definición de tareas ECS.
+2. Construir la imagen que sera desplegada en el servicio Fargate ECS.
+
+3. En el servicio Fargate ECS referenciar a la imagen creada en el punto anterior.
+
+4. Establecer las siguientes variables de entorno en la definición de tareas ECS.
 
         INSTANA_ENDPOINT_URL: https://serverless-orange-saas.instana.io
         
         INSTANA_AGENT_KEY: {AgentKey}
 
-    ![image](https://github.com/juan-conde-21/aws-ecs-nodejs/assets/13276404/cbd29e16-d593-4e2b-afc3-67103d4703e2)
+        INSTANA_SERVICE_NAME: {Nombre_personalizado_de_servicio_en_Instana}
 
-3. Revisar en consola Instana
+    ![image](https://github.com/juan-conde-21/aws-ecs-nodejs/assets/13276404/8468b00f-c8b9-45f3-a3a5-50025a7fcc2c)
+
+
+5. Revisar en consola Instana, para este ejemplo el nombre del servicio es nodejs.
+
+        ![image](https://github.com/juan-conde-21/aws-ecs-nodejs/assets/13276404/b018601e-709f-4b44-a0d6-bd365fb3a351)
 
 
 
