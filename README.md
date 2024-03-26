@@ -23,7 +23,7 @@
 
         INSTANA_SERVICE_NAME: {Nombre_personalizado_de_servicio_en_Instana}
 
-    ![image](https://github.com/juan-conde-21/aws-ecs-nodejs/assets/13276404/8468b00f-c8b9-45f3-a3a5-50025a7fcc2c)
+    ![image](https://github.com/juan-conde-21/aws-ecs-nodejs/assets/13276404/7c405a80-bf0e-4229-a1b9-f732647dd7e4)
 
 
 5. Revisar en consola Instana, para este ejemplo el nombre del servicio es nodejs.
