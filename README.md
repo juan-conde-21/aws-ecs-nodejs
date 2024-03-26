@@ -28,7 +28,7 @@
 
 5. Revisar en consola Instana, para este ejemplo el nombre del servicio es nodejs.
 
-        ![image](https://github.com/juan-conde-21/aws-ecs-nodejs/assets/13276404/b018601e-709f-4b44-a0d6-bd365fb3a351)
+   ![image](https://github.com/juan-conde-21/aws-ecs-nodejs/assets/13276404/b018601e-709f-4b44-a0d6-bd365fb3a351)
 
 
 
